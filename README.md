@@ -3,6 +3,9 @@
 **dreichor** is a universal decision & trust governance framework  
 for systems that must act under uncertainty.
 
+**dreichor** is designed for architects, auditors, and engineers
+responsible for systems where incorrect autonomy is a material risk.
+
 It provides a formal, deterministic governance layer that sits **above domain logic**  
 and **below real-world execution**, ensuring that decisions are explainable, auditable,
 and only deployed when sufficient trust has been earned.
@@ -184,3 +187,12 @@ Commercial and enterprise licensing options may be offered separately.
 Profit without governance is luck.
 Governance without action is philosophy.
 dreichor insists on both.
+
+## Documentation
+
+For architectural details, audit walkthroughs, and formal guarantees,
+see the documentation in.
+
+```
+/docs
+```
