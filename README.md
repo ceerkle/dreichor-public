@@ -1,5 +1,9 @@
 # dreichor
 
+**Note:** The public repository focuses on architecture, guarantees,
+and governance boundaries. Not all internal implementation details
+are published.
+
 **dreichor** is a universal decision & trust governance framework  
 for systems that must act under uncertainty.
 
@@ -12,6 +16,22 @@ and only deployed when sufficient trust has been earned.
 
 dreichor does not optimize outcomes.  
 It governs **behavior**.
+
+## Who dreichor Is For
+
+dreichor is intended for teams that:
+- operate systems with real-world consequences
+- require auditability and replayable decision logic
+- must justify autonomy to regulators, auditors, or internal governance
+- prefer explicit guarantees over adaptive optimization
+
+If you are looking for:
+- faster decisions
+- smarter models
+- automatic optimization
+- self-healing autonomy
+
+dreichor is not the right tool.
 
 ---
 
@@ -174,11 +194,13 @@ It governs how intelligence is allowed to act.
 
 ## License
 
-This project is licensed under the
-Mozilla Public License 2.0 (MPL-2.0).
+This project is licensed under the Mozilla Public License 2.0 (MPL-2.0).
 
-The source is available for review and integration.
-Commercial and enterprise licensing options may be offered separately.
+The source code is available for review and integration under the terms
+of the MPL-2.0 license.
+
+Commercial licensing, enterprise assurances, or regulated-use agreements
+may be offered separately and are not covered by this repository.
 
 ⸻
 
@@ -190,9 +212,17 @@ dreichor insists on both.
 
 ## Documentation
 
-For architectural details, audit walkthroughs, and formal guarantees,
-see the documentation in.
+Start here for architecture, audit walkthroughs,
+formal guarantees, and responsibility boundaries:
 
-```
-/docs
-```
+- Documentation Index: /docs/README.md
+
+## Further Information
+
+Official project site:
+https://www.dreichor.io
+
+The website provides:
+- executive overview
+- audit perspective
+- licensing boundaries
